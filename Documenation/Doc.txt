@@ -1,3 +1,17 @@
 //write documentaion here
-//authors:
+version: 0.0.0
+initial version: only for arithmetic operations. 
 
+Operations: +, -, *, /, % 
+
+E -> T + F/ T - F/ T * F/ T / F/ T % F/ N
+T -> N
+F -> N
+N -> ND/ D
+D -> 0/1/2/3/4/5/6/7/8/9
+
+122+213
+12;
+N ->ND -> NDD -> DDD //left recursion 
+
+function: show(122+213); // prints on the terminal
